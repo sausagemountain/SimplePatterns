@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="SimplePatterns.AndroidAppFactory" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Android\AndroidAppFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimplePatterns.AndroidApplication" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAgABAAAAAAAAAA=</HashCode>
+      <FileName>Android\AndroidApplication.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimplePatterns.AndroidBackend" BaseTypeListCollapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Android\AndroidBackend.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimplePatterns.AndroidFrontend" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Android\AndroidFrontend.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimplePatterns.AndroidStyle" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Android\AndroidStyle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimplePatterns.IosAppFactory" BaseTypeListCollapsed="true">
+    <Position X="16" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Ios\IosAppFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimplePatterns.IosApplication" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAgABAAAAAAAAAA=</HashCode>
+      <FileName>Ios\IosApplication.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimplePatterns.IosBackend" BaseTypeListCollapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ios\IosBackend.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimplePatterns.IosFrontend" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ios\IosFrontend.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimplePatterns.IosStyle" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ios\IosStyle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="SimplePatterns.IApplication">
+    <Position X="9" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAgABAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IApplication.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SimplePatterns.IApplicationFactory">
+    <Position X="14.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Interfaces\IApplicationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SimplePatterns.IBackend">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBackend.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SimplePatterns.IComponent">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SimplePatterns.IFrontend">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFrontend.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SimplePatterns.IStyle">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IStyle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
