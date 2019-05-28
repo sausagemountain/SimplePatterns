@@ -11,8 +11,8 @@ namespace BuilderPattern
         public Server Build()
         {
             var result = new Server() {
-                Cpu = MakeCpu(),
                 Gpu = MakeGpu(),
+                Cpu = MakeCpu(),
                 MotherBoard = MakeMotherBoard(),
                 Ram = MakeRam(),
                 Storage = MakeStorage()

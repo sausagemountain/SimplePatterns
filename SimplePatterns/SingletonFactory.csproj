@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{58B45A29-CE03-4AD2-90AC-CCB752C15A68}</ProjectGuid>
+    <ProjectGuid>{FE6F9FEC-D6D7-4A49-883D-31140A8BA912}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BuilderPattern</RootNamespace>
-    <AssemblyName>BuilderPattern</AssemblyName>
+    <RootNamespace>SimplePatterns</RootNamespace>
+    <AssemblyName>SimplePatterns</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
     <LangVersion>7.2</LangVersion>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SimplePatterns.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,17 +48,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaselineServerBuilder.cs" />
-    <Compile Include="HighEndServerBuilder.cs" />
-    <Compile Include="IServerBuilder.cs" />
-    <Compile Include="MidRangeServerBuilder.cs" />
+    <Compile Include="Android\AndroidAppFactory.cs" />
+    <Compile Include="Android\AndroidApplication.cs" />
+    <Compile Include="Android\AndroidBackend.cs" />
+    <Compile Include="Android\AndroidFrontend.cs" />
+    <Compile Include="Android\AndroidStyle.cs" />
+    <Compile Include="Interfaces\IApplication.cs" />
+    <Compile Include="Interfaces\IApplicationFactory.cs" />
+    <Compile Include="Interfaces\IBackend.cs" />
+    <Compile Include="Interfaces\IComponent.cs" />
+    <Compile Include="Interfaces\IFrontend.cs" />
+    <Compile Include="Ios\IosAppFactory.cs" />
+    <Compile Include="Ios\IosApplication.cs" />
+    <Compile Include="Ios\IosBackend.cs" />
+    <Compile Include="Ios\IosFrontend.cs" />
+    <Compile Include="Ios\IosStyle.cs" />
+    <Compile Include="Interfaces\IStyle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Server.cs" />
-    <Compile Include="ServerDirector.cs" />
+    <Compile Include="Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram2.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
