@@ -26,6 +26,7 @@ namespace ObserverPattern
 
         public void NotifyObservers()
         {
+            Console.WriteLine("sending news");
             Notify?.Invoke(this, "test");
         }
     }
